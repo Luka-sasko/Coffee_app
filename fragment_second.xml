@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/coffe1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/cappuccino"
+            app:layout_constraintEnd_toStartOf="@+id/coffe2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coffe_name1"
+            tools:src="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/coffe3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/espresso"
+            app:layout_constraintEnd_toStartOf="@+id/coffe4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coffe_name3"
+            tools:src="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/coffe4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/latte"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/coffe3"
+            app:layout_constraintTop_toBottomOf="@+id/coffe_name4"
+            tools:src="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/coffe5"
+            android:layout_width="83dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/icecoffee"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/coffe6"
+            app:layout_constraintTop_toBottomOf="@+id/coffe_name5"
+            tools:src="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/coffe6"
+            android:layout_width="84dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/hazelnut"
+            app:layout_constraintEnd_toStartOf="@+id/coffe5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coffe_name6"
+            tools:src="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/coffe2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/mocha"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/coffe1"
+            app:layout_constraintTop_toBottomOf="@+id/coffe_name2"
+            tools:src="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/coffe8"
+            android:layout_width="87dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/toffee"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/coffe7"
+            app:layout_constraintTop_toBottomOf="@+id/coffe_name8"
+            tools:src="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/coffe7"
+            android:layout_width="82dp"
+            android:layout_height="79dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/irish"
+            app:layout_constraintEnd_toStartOf="@+id/coffe8"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coffe_name7"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/Title2"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="#4E1E0F"
+            android:gravity="center"
+            android:text="Choose a drink for preparation"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            android:typeface="monospace"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/coffe_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/coffe_name2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Title2" />
+
+        <TextView
+            android:id="@+id/coffe_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/coffe_name1"
+            app:layout_constraintTop_toBottomOf="@+id/Title2" />
+
+        <TextView
+            android:id="@+id/coffe_name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/coffe_name4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coffe1" />
+
+        <TextView
+            android:id="@+id/coffe_name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/coffe_name3"
+            app:layout_constraintTop_toBottomOf="@+id/coffe2" />
+
+        <TextView
+            android:id="@+id/coffe_name5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/coffe_name6"
+            app:layout_constraintTop_toBottomOf="@+id/coffe4" />
+
+        <TextView
+            android:id="@+id/coffe_name6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/coffe_name5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coffe3" />
+
+        <TextView
+            android:id="@+id/coffe_name7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/coffe_name8"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coffe6" />
+
+        <TextView
+            android:id="@+id/coffe_name8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/coffe_name7"
+            app:layout_constraintTop_toBottomOf="@+id/coffe5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
